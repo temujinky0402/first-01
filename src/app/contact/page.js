@@ -18,7 +18,7 @@ export default function Contact() {
                     <input className="w-150 h-10 bg-white rounded-2xl pl-5 outline-none" placeholder="Password"/>
                 </div>
                 <button className="text-white text-xl font-bold rounded-full bg-purple-800 w-30  h-10 hover:bg-rose-900 active:bg-purple-700 cursor-pointer">Sign in</button>
-                <div className="grid grid-cols-2 w-full pl-65 mt-20">
+                <div className="grid grid-cols-2 w-full flex justify-center mt-20">
                     <p className="text-white font-bold text-sm">
                         Email:temujinky0402@gmail.com
                     </p>

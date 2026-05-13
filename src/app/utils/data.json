@@ -347,19 +347,5 @@
         "type": "student",
         "created_at": "Idk",
         "gender": "male"
-    },
-
-    {
-        "id": 26,
-        "First_name": "Unknown",
-        "Last_name": "Buyanbaater",
-        "email": "nest20271013@nhs.edu.mn",
-        "age": 17,
-        "Country": "Mongolia",
-        "Password": "password123#",
-        "point": 100,
-        "type": "teacher",
-        "created_at": "Idk",
-        "gender": "female"
-    }
+    }   
 ]
