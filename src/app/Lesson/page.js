@@ -17,7 +17,7 @@ export default function Lesson() {
                 <input value={nameSearch} onChange={(e) => setNameSearch(e.target.value)} placeholder="Welcome to Nest 11A" className="p-1.5 pl-4 ml-5 rounded-full border border-purple-700 text-white outline-none"></input>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 mb-50 mt-20 pr-15 pl-15">
+            <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 mb-50 mt-20 pr-15 pl-15">
                 {jsonData.filter((item) => item.First_name.toLowerCase().includes(nameSearch.toLowerCase())).map((item) => (
                     (item.type == "student")
                     ? 
